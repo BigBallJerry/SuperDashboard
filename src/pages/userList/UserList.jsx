@@ -42,7 +42,7 @@ export default function UserList() {
     return (
         <div className="userList">
             <DataGrid
-                rows={userListDataRows}
+                rows={data}
                 columns={userListDataColumns}
                 pageSize={8}
                 rowsPerPageOptions={[5]}
